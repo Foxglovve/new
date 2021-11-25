@@ -19,3 +19,4 @@ $ cut -d, -f3 *.csv > chatmessages.txt
 $ grep -E '.{20}' chatmessages.txt | wc -l
 $ cut -d, -f2 *.csv > user_list.txt
 $ sort user_list.txt | uniq | wc -l 
+$ sort chatmessages.txt | uniq > unique_comments.txt
